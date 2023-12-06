@@ -6,9 +6,9 @@ try:
     for i in range(n):
         country = input("Введите название страны: ") 
         rivers = []
-        river_input = input("Введите названия рек через запятую: ")
+        rivers_input = input("Введите названия рек через запятую: ")
         river = ""
-        for bukva in river_input:
+        for bukva in rivers_input:
             if bukva != ",":
                 river += bukva
             else:
