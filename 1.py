@@ -22,7 +22,7 @@ try:
     print("Значение функции при c4:",DigitCountSum(k,c4))
     print("Значение функции при c5:",DigitCountSum(k,c5))
 except:
-    print("Данные некоректны")
+    print("Данные некорректны")
 
 
 
