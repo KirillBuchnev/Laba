@@ -7,6 +7,9 @@ def f(x):
 a1=[random.randint(-5,5) for i in range(20)]
 a2=[random.randint(-5,5) for i in range(10)]
 a3=[random.randint(-5,5) for i in range(15)]
+print(a1)
+print(a2)
+print(a3)
 try:
     x = float(input("Введите значение x:"))
     b = float(input("Введите значение b:"))
