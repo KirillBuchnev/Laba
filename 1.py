@@ -8,12 +8,12 @@ def DigitCountSum(k,c):
             s += int(i)
     return count, s
 try:
-    k=int(input("Введите значение k:"))
-    c1=int(input("Введите значение c1:"))
-    c2=int(input("Введите значение c2:"))
-    c3=int(input("Введите значение c3:"))
-    c4=int(input("Введите значение c4:"))
-    c5=int(input("Введите значение c5:"))
+    k=int(input("Введите значение k: "))
+    c1=int(input("Введите значение c1: "))
+    c2=int(input("Введите значение c2: "))
+    c3=int(input("Введите значение c3: "))
+    c4=int(input("Введите значение c4: "))
+    c5=int(input("Введите значение c5: "))
     if k<0:
         raise ValueError
     print("Значение функции при c1:",DigitCountSum(k,c1))
